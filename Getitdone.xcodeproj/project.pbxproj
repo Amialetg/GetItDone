@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		DD0293242111FE3100FC3800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0293232111FE3100FC3800 /* AppDelegate.swift */; };
-		DD0293262111FE3100FC3800 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0293252111FE3100FC3800 /* ViewController.swift */; };
-		DD0293292111FE3100FC3800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0293272111FE3100FC3800 /* Main.storyboard */; };
+		DD0293262111FE3100FC3800 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0293252111FE3100FC3800 /* WelcomeController.swift */; };
 		DD02932C2111FE3100FC3800 /* Getitdone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD02932A2111FE3100FC3800 /* Getitdone.xcdatamodeld */; };
 		DD02932E2111FE3300FC3800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD02932D2111FE3300FC3800 /* Assets.xcassets */; };
 		DD0293312111FE3300FC3800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD02932F2111FE3300FC3800 /* LaunchScreen.storyboard */; };
+		DD0293392113569E00FC3800 /* GDGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0293382113569E00FC3800 /* GDGradient.swift */; };
+		DD1D7A452185BF9800A4BC6C /* optionset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1D7A442185BF9800A4BC6C /* optionset.swift */; };
+		DD455C04212EF99400212164 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD455C03212EF99400212164 /* extension.swift */; };
+		DDBD7DC02196C57100483619 /* GDTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD7DBF2196C57100483619 /* GDTableView.swift */; };
+		DDC0E7E221340CD1005D4DAA /* GDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0E7E121340CD1005D4DAA /* GDLabel.swift */; };
+		DDC0E7E5213426E8005D4DAA /* Raleway-v4020-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDC0E7E4213426E8005D4DAA /* Raleway-v4020-Regular.otf */; };
+		DDC0E7E721342C7D005D4DAA /* Raleway-v4020-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDC0E7E621342C7D005D4DAA /* Raleway-v4020-SemiBold.otf */; };
+		DDC0E7E92134420F005D4DAA /* GDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0E7E82134420F005D4DAA /* GDButton.swift */; };
+		DDC0E7EB21353CFB005D4DAA /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0E7EA21353CFB005D4DAA /* ListController.swift */; };
+		DDC0E7ED2137FFE4005D4DAA /* GDHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0E7EC2137FFE4005D4DAA /* GDHeaderView.swift */; };
+		DDCD1941218CB04900855E95 /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD1940218CB04900855E95 /* protocol.swift */; };
+		DDCD1943218CB33D00855E95 /* GDNewItemPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD1942218CB33D00855E95 /* GDNewItemPopup.swift */; };
+		DDCD1945218CC09500855E95 /* GDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD1944218CC09500855E95 /* GDTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD0293202111FE3100FC3800 /* Getitdone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Getitdone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0293232111FE3100FC3800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD0293252111FE3100FC3800 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD0293282111FE3100FC3800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD0293252111FE3100FC3800 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		DD02932B2111FE3100FC3800 /* Getitdone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Getitdone.xcdatamodel; sourceTree = "<group>"; };
 		DD02932D2111FE3300FC3800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0293302111FE3300FC3800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0293322111FE3300FC3800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0293382113569E00FC3800 /* GDGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDGradient.swift; sourceTree = "<group>"; };
+		DD1D7A442185BF9800A4BC6C /* optionset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionset.swift; sourceTree = "<group>"; };
+		DD455C03212EF99400212164 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		DDBD7DBF2196C57100483619 /* GDTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTableView.swift; sourceTree = "<group>"; };
+		DDC0E7E121340CD1005D4DAA /* GDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDLabel.swift; sourceTree = "<group>"; };
+		DDC0E7E4213426E8005D4DAA /* Raleway-v4020-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-Regular.otf"; sourceTree = "<group>"; };
+		DDC0E7E621342C7D005D4DAA /* Raleway-v4020-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-v4020-SemiBold.otf"; sourceTree = "<group>"; };
+		DDC0E7E82134420F005D4DAA /* GDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDButton.swift; sourceTree = "<group>"; };
+		DDC0E7EA21353CFB005D4DAA /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		DDC0E7EC2137FFE4005D4DAA /* GDHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDHeaderView.swift; sourceTree = "<group>"; };
+		DDCD1940218CB04900855E95 /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		DDCD1942218CB33D00855E95 /* GDNewItemPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDNewItemPopup.swift; sourceTree = "<group>"; };
+		DDCD1944218CC09500855E95 /* GDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +81,58 @@
 			isa = PBXGroup;
 			children = (
 				DD0293232111FE3100FC3800 /* AppDelegate.swift */,
-				DD0293252111FE3100FC3800 /* ViewController.swift */,
-				DD0293272111FE3100FC3800 /* Main.storyboard */,
+				DDC0E7E3213425E6005D4DAA /* fonts */,
+				DD455C02212EF92F00212164 /* extension */,
+				DDC0E7E021340CB0005D4DAA /* custom */,
+				DD7B3588214023850003C4A2 /* controllers */,
 				DD02932D2111FE3300FC3800 /* Assets.xcassets */,
 				DD02932F2111FE3300FC3800 /* LaunchScreen.storyboard */,
 				DD0293322111FE3300FC3800 /* Info.plist */,
 				DD02932A2111FE3100FC3800 /* Getitdone.xcdatamodeld */,
 			);
 			path = Getitdone;
+			sourceTree = "<group>";
+		};
+		DD455C02212EF92F00212164 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				DD455C03212EF99400212164 /* extension.swift */,
+				DD1D7A442185BF9800A4BC6C /* optionset.swift */,
+				DDCD1940218CB04900855E95 /* protocol.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		DD7B3588214023850003C4A2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0293252111FE3100FC3800 /* WelcomeController.swift */,
+				DDC0E7EA21353CFB005D4DAA /* ListController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		DDC0E7E021340CB0005D4DAA /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				DD0293382113569E00FC3800 /* GDGradient.swift */,
+				DDC0E7E121340CD1005D4DAA /* GDLabel.swift */,
+				DDC0E7E82134420F005D4DAA /* GDButton.swift */,
+				DDC0E7EC2137FFE4005D4DAA /* GDHeaderView.swift */,
+				DDCD1942218CB33D00855E95 /* GDNewItemPopup.swift */,
+				DDCD1944218CC09500855E95 /* GDTextField.swift */,
+				DDBD7DBF2196C57100483619 /* GDTableView.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		DDC0E7E3213425E6005D4DAA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DDC0E7E621342C7D005D4DAA /* Raleway-v4020-SemiBold.otf */,
+				DDC0E7E4213426E8005D4DAA /* Raleway-v4020-Regular.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC0E7E5213426E8005D4DAA /* Raleway-v4020-Regular.otf in Resources */,
 				DD0293312111FE3300FC3800 /* LaunchScreen.storyboard in Resources */,
 				DD02932E2111FE3300FC3800 /* Assets.xcassets in Resources */,
-				DD0293292111FE3100FC3800 /* Main.storyboard in Resources */,
+				DDC0E7E721342C7D005D4DAA /* Raleway-v4020-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +207,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0293262111FE3100FC3800 /* ViewController.swift in Sources */,
+				DD0293392113569E00FC3800 /* GDGradient.swift in Sources */,
+				DDC0E7E92134420F005D4DAA /* GDButton.swift in Sources */,
+				DD0293262111FE3100FC3800 /* WelcomeController.swift in Sources */,
 				DD02932C2111FE3100FC3800 /* Getitdone.xcdatamodeld in Sources */,
+				DDC0E7E221340CD1005D4DAA /* GDLabel.swift in Sources */,
+				DD455C04212EF99400212164 /* extension.swift in Sources */,
+				DDCD1945218CC09500855E95 /* GDTextField.swift in Sources */,
+				DDC0E7ED2137FFE4005D4DAA /* GDHeaderView.swift in Sources */,
+				DDBD7DC02196C57100483619 /* GDTableView.swift in Sources */,
+				DD1D7A452185BF9800A4BC6C /* optionset.swift in Sources */,
+				DDCD1941218CB04900855E95 /* protocol.swift in Sources */,
 				DD0293242111FE3100FC3800 /* AppDelegate.swift in Sources */,
+				DDC0E7EB21353CFB005D4DAA /* ListController.swift in Sources */,
+				DDCD1943218CB33D00855E95 /* GDNewItemPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD0293272111FE3100FC3800 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD0293282111FE3100FC3800 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD02932F2111FE3300FC3800 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TP45QWH7P;
 				INFOPLIST_FILE = Getitdone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TP45QWH7P;
 				INFOPLIST_FILE = Getitdone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

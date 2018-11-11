@@ -16,7 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+//        for family in UIFont.familyNames.sorted() {
+//            let names = UIFont.fontNames(forFamilyName: family)
+//            print("family: \(family), font names: \(names)")
+//        }
+        
+        let wc = WelcomeController()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = wc
+        
         return true
     }
 
